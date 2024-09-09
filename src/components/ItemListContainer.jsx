@@ -1,7 +1,7 @@
+/* eslint-disable react/prop-types */
 import { Typography } from 'antd';
 const {Text} = Typography;
-const ItemListContainer = () => {
-    const greeting = 'Welcome'
+const ItemListContainer = ({greeting}) => {
   return (
     <>
         <Text type="warning">{greeting}</Text>

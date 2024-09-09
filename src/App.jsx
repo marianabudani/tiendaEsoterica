@@ -18,7 +18,7 @@ const App = () => {
       <div style={{ marginTop: 64 }}>
         {/* Aquí irá el contenido principal de la página */}
       </div>
-      <ItemListContainer greeting/>
+      <ItemListContainer greeting={'Welcome!'}/>
     </Layout>
   );
 };
